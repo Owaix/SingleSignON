@@ -1,32 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdS\\IdS.csproj": {}
+    "D:\\SingleSignON\\identity\\IdS\\IdS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdS\\IdS.csproj": {
+    "D:\\SingleSignON\\identity\\IdS\\IdS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdS\\IdS.csproj",
+        "projectUniqueName": "D:\\SingleSignON\\identity\\IdS\\IdS.csproj",
         "projectName": "IdS",
-        "projectPath": "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdS\\IdS.csproj",
-        "packagesPath": "C:\\Users\\owaitmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdS\\obj\\",
+        "projectPath": "D:\\SingleSignON\\identity\\IdS\\IdS.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\SingleSignON\\identity\\IdS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\owaitmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +40,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "IdentityServer4": {
               "target": "Package",
@@ -51,8 +54,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

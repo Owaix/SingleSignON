@@ -1,32 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj": {}
+    "D:\\SingleSignON\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj": {
+    "D:\\SingleSignON\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj",
+        "projectUniqueName": "D:\\SingleSignON\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj",
         "projectName": "IdSWithIdentity",
-        "projectPath": "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj",
-        "packagesPath": "C:\\Users\\owaitmuh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owaitmuh\\Downloads\\SettingUpIdentityServer-master\\step-by-step-demo\\identity\\IdSWithIdentity\\obj\\",
+        "projectPath": "D:\\SingleSignON\\identity\\IdSWithIdentity\\IdSWithIdentity.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\SingleSignON\\identity\\IdSWithIdentity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\owaitmuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +40,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "IdentityServer4": {
               "target": "Package",
-              "version": "[4.0.4, )"
+              "version": "[4.1.2, )"
             },
             "IdentityServer4.AspNetIdentity": {
               "target": "Package",
@@ -60,9 +63,19 @@
               "target": "Package",
               "version": "[3.1.6, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
@@ -91,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

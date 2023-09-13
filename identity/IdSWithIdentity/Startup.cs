@@ -32,7 +32,7 @@ namespace IdS
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -41,13 +41,13 @@ namespace IdS
                 .AddAspNetIdentity<IdentityUser>()
                 .AddConfigurationStore(options =>
                 {
-                    options.ConfigureDbContext = builder => builder.UseSqlite(connectionString, 
+                    options.ConfigureDbContext = builder => builder.UseSqlServer(connectionString, 
                         opt => opt.MigrationsAssembly(migrationsAssembly));
                 })
                 // this adds the operational data from DB (codes, tokens, consents)
                 .AddOperationalStore(options =>
                 {
-                    options.ConfigureDbContext = builder => builder.UseSqlite(connectionString, 
+                    options.ConfigureDbContext = builder => builder.UseSqlServer(connectionString, 
                         opt => opt.MigrationsAssembly(migrationsAssembly));
 
                     // this enables automatic token cleanup. this is optional.

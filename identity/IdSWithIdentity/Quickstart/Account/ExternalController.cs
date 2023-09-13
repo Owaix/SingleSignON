@@ -204,6 +204,6 @@ namespace IdentityServerHost.Quickstart.UI
             {
                 localSignInProps.StoreTokens(new[] { new AuthenticationToken { Name = "id_token", Value = idToken } });
             }
-        }
-    }
+        } 
+    }  
 }
